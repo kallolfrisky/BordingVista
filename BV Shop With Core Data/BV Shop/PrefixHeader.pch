@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  BV Shop
+//
+//  Created by Najmul Hasan on 5/26/15.
+//  Copyright (c) 2015 BordingVista. All rights reserved.
+//
+
+#ifndef BV_Shop_PrefixHeader_pch
+#define BV_Shop_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import "SVProgressHUD.h"
+#import "ConnectionManager.h"
+#import "UIImageView+AFNetworking.h"
+#import <CoreData/CoreData.h>
+
+#endif
+
+#define     BASE_URL                    @"http://202.84.35.90:16019/mobile/"   //Live
+
+#define     DOC_FOLDER_PATH             [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES)objectAtIndex:0]
+#define     APP_THEME_COLOR             [UIColor colorWithRed:107.0/255 green:175.0/255 blue:51.0/255 alpha:1.0]
+
+#define     PICKED_PRODUCT              @"PickedProduct.plist"
+
+#endif
+
