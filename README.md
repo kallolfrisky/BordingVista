@@ -1,5 +1,5 @@
 # BordingVista
-Practical Exam For Technical Lead Engineer –iOS Development ￼
+Demo Shop ￼
 
 Two version of the project is developed, one with core data and another without core data but using plist. 
 This project is developed in Xcode 6.3 using with storyboard compatible to both iPhone and iPad and for all device orientation. 
